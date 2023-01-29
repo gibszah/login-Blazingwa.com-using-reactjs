@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.brand{
+  padding-left: 50px
+}
+.language {
+  margin-right: 32px;
+  background-color:#F5F6FA;
+  height: 46px;
+  width: 125px;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.container {
+  margin-top: 25px;
+  background-color: #F5F6FA;
+  height: 741.98px;
+  width: 1300px;
+  border-radius: 5px;
+  box-shadow: 15px;
+  
+  border: 1px solid white;
+
+}
+
+.login {
+  margin-top: 44px;
+}
+
+.google-button {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 1px;
+  justify-content: space-between;
+  margin-right: 75px;
+}
+
+p {
+  text-align: center;
+  margin-right: 80px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.label1{
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-submit {
+  color: white;
+  background-color: #23A455;
+  width: 89%;
+  border-color: #F5F6FA;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.btn-submit:hover {
+  background-color: #30c96b;
+}
+
+.mb-3 {
+  width: 89%;
+}
+.rememberme {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .form-control {
+    background-image: url(../image/envelop.svg);
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    padding-right: 40px;
+}
+.form-control::-webkit-input-placeholder {
+    padding-right: 25px;
+    text-align: left;
+} */
+
+.envelope {
+  display: flex;
+ 
+}
+
+.keypass{
+  background-color: #fff;
+  position: absolute;
+  margin-top: 10px;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.eye {
+  position: absolute;
+  margin-left: 94%;
+  margin-top: 12px;
+  
+}
+
+.form-control {
+  height: 52px;
+  text-align:calc(50%-100px);
+}
+.form-control[type="email"]{
+  padding-left: 60px;
+}
+
+.form-control[type="password"],
+.form-control[type="text"]{
+  padding-left: 60px;
+}
+
+.form-control::-webkit-input-placeholder {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.donothave {
+  padding-top: 25px;
+  font-size: 17px;
+  font-family: 'Poppins';
+  text-align: left;
+  
+}
+
+.signfor {
+  text-decoration: none;
+  color: #23A455;
+  display: inline;
+}
+
+.store {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 138px;
+  margin-right: 138px;
+
+}
+
